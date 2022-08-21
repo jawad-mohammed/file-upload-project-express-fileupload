@@ -29,11 +29,6 @@ const config ={
 })
 .catch((err)=>console.log(err))
 
- //const { fileName, filePath } = res.data;
-
-// setUploadedFile({ fileName, filePath });
-
-
   }
   const handleChange=(e)=>{
 setUploadFile(e.target.files[0])
